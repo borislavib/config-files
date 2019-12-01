@@ -1,0 +1,45 @@
+127.0.0.1	localhost
+127.0.1.1	bb
+
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+
+0.0.0.0 www.youtube.com
+0.0.0.0 youtube.com
+0.0.0.0 facebook.com
+0.0.0.0 www.facebook.com
+0.0.0.0 quora.com
+0.0.0.0 www.quora.com
+0.0.0.0 reddit.com
+0.0.0.0 www.reddit.com
+0.0.0.0 news.ycombinator.com
+0.0.0.0 www.hntoplinks.com
+0.0.0.0 www.goodreads.com
+
+0.0.0.0 stackoverflow.blog
+0.0.0.0 politics.stackexchange.com
+0.0.0.0 academia.stackexchange.com
+0.0.0.0 skeptics.stackexchange.com
+0.0.0.0 meta.stackoverflow.com
+0.0.0.0 meta.stackexchange.com
+0.0.0.0 meta.askubuntu.com
+0.0.0.0 history.stackexchange.com
+0.0.0.0 physics.stackexchange.com
+0.0.0.0 amazon.com
+0.0.0.0 www.amazon.com
+0.0.0.0 softwareengineering.meta.stackexchange.com
+0.0.0.0 travel.stackexchange.com 
+0.0.0.0 movies.stackexchange.com
+0.0.0.0 boec.bg
+0.0.0.0 gong.bg
+
+0.0.0.0 graph.facebook.com
+#0.0.0.0 connect.facebook.net
+#0.0.0.0 static.xx.fbcdn.net
+#0.0.0.0 staticxx.facebook.com
