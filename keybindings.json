@@ -1,0 +1,46 @@
+// Place your key bindings in this file to override the defaults
+// VSCodium/VSCode
+[ 
+    {   //Keyboard Shortcuts  "key": "ctrl+c oem_period",
+        "key": "f2",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "<$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE>"
+        }
+    },
+    {
+        "key": "ctrl+0 ctrl+0",
+        "command": "workbench.action.debug.continue",
+        "when": "inDebugMode"
+    },
+    {
+        "key": "f5",
+        "command": "-workbench.action.debug.continue",
+        "when": "inDebugMode"
+    },
+    {
+        "key": "ctrl+0 ctrl+9",
+        "command": "workbench.action.debug.start",
+        "when": "debuggersAvailable && !inDebugMode"
+    },
+    {
+        "key": "f5",
+        "command": "-workbench.action.debug.start",
+        "when": "debuggersAvailable && !inDebugMode"
+    },
+    {
+        "key": "f5",
+        "command": "python.execInTerminal"
+    },
+    {
+        "key": "ctrl+shift+u",
+        "command": "editor.action.transformToUppercase",
+        "when": "editorTextFocus"
+     },
+     {
+        "key": "ctrl+shift+l",
+        "command": "editor.action.transformToLowercase",
+        "when": "editorTextFocus"
+     }
+]
